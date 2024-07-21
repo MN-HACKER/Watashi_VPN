@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：14-07-2024 22:57:20
+# 创建时间：21-07-2024 23:07:21
 # 使用模版：V2RaySE 默认模版
-# 节点数量：9
+# 节点数量：14
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,7 +86,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"@Watashi_VPN","type":"vless","server":"111.11.1","port":443,"uuid":"ffffffff-eeae-4311-b37c-b2a67847fed2","tls":true,"servername":"111","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"111"}},"client-fingerprint":"chrome"}
+  - {"name":"All Free-Dont Sale","type":"vless","server":"173.245.49.20","port":443,"uuid":"ffffffff-1283-4a3f-98e0-3489aee6cc33","tls":true,"servername":"f-nothing-r-life-ee.watashi-java.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"f-nothing-r-life-ee.watashi-java.ir"}},"client-fingerprint":"chrome"}
+  - {"name":"Watashi⚡️VPN-Free-NL🇳🇱_1","type":"vless","server":"@Watashi_VPN","port":443,"uuid":"ffffffff-1283-4a3f-98e0-3489aee6cc33","tls":true,"servername":"f-nothing-r-life-ee.watashi-java.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"f-nothing-r-life-ee.watashi-java.ir"}},"client-fingerprint":"chrome"}
+  - {"name":"Watashi⚡️VPN-Free-NL🇳🇱_2","type":"vless","server":"www.speedtest.net","port":443,"uuid":"ffffffff-1283-4a3f-98e0-3489aee6cc33","tls":true,"servername":"f-nothing-r-life-ee.watashi-java.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"f-nothing-r-life-ee.watashi-java.ir"}},"client-fingerprint":"chrome"}
+  - {"name":"Watashi⚡️VPN-Free-NL🇳🇱_3","type":"vless","server":"cf.090227.xyz","port":443,"uuid":"ffffffff-1283-4a3f-98e0-3489aee6cc33","tls":true,"servername":"f-nothing-r-life-ee.watashi-java.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"f-nothing-r-life-ee.watashi-java.ir"}},"client-fingerprint":"chrome"}
+  - {"name":"Watashi⚡️VPN-Free-NL🇳🇱_4","type":"vless","server":"zula.ir","port":443,"uuid":"ffffffff-1283-4a3f-98e0-3489aee6cc33","tls":true,"servername":"f-nothing-r-life-ee.watashi-java.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"f-nothing-r-life-ee.watashi-java.ir"}},"client-fingerprint":"chrome"}
+  - {"name":"Watashi⚡️VPN-Free-NL🇳🇱_5","type":"vless","server":"www.gov.se","port":443,"uuid":"ffffffff-1283-4a3f-98e0-3489aee6cc33","tls":true,"servername":"f-nothing-r-life-ee.watashi-java.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"f-nothing-r-life-ee.watashi-java.ir"}},"client-fingerprint":"chrome"}
   - {"name":"Watashi⚡️VPN-Trojan 🇯🇵_1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":true,"password":"Watashi_VPN","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}}}
   - {"name":"Watashi⚡️VPN-Trojan 🇯🇵_2","type":"trojan","server":"www.visa.com.sg","port":2053,"udp":true,"password":"Watashi_VPN","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}}}
   - {"name":"Watashi⚡️VPN-Trojan 🇯🇵_3","type":"trojan","server":"www.speedtest.net","port":443,"udp":true,"password":"Watashi_VPN","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}}}
@@ -101,7 +106,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
@@ -116,7 +126,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
@@ -131,7 +146,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
@@ -145,7 +165,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
@@ -159,7 +184,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
@@ -173,7 +203,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
@@ -204,7 +239,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@Watashi_VPN'
+      - All Free-Dont Sale
+      - Watashi⚡️VPN-Free-NL🇳🇱_1
+      - Watashi⚡️VPN-Free-NL🇳🇱_2
+      - Watashi⚡️VPN-Free-NL🇳🇱_3
+      - Watashi⚡️VPN-Free-NL🇳🇱_4
+      - Watashi⚡️VPN-Free-NL🇳🇱_5
       - Watashi⚡️VPN-Trojan 🇯🇵_1
       - Watashi⚡️VPN-Trojan 🇯🇵_2
       - Watashi⚡️VPN-Trojan 🇯🇵_3
